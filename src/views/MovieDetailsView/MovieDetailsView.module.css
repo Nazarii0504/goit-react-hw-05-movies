@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e30b5c;
+}
+
+.info {
+  margin-left: 30px;
+}
+
+.additional {
+  border-bottom: 2px solid #e30b5c;
+}
+
+.btn {
+  padding: 7px 12px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #e30b5c;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color linear 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #a90943;
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}

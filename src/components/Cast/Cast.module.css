@@ -1,0 +1,10 @@
+.profile {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.person {
+  display: flex;
+  padding: 10px;
+  width: 500px;
+}
